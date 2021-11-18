@@ -209,13 +209,3 @@ background("#D3D3D3");
     paddle1Y = paddle1Y + 1;
   }
 }
-
-function gotPoses(results)
-{
-  if(results.length > 0)
-  {
-    noseX = results[0].pose.nose.x;
-    noseY = results[0].pose.nose.y;
-    console.log("noseX = " + noseX +", noseY = " + noseY);
-  }
-}
